@@ -1,0 +1,6 @@
+{
+  "name": "NEXUS — Disaster Prediction & Management System",
+  "description": "Planetary disaster prediction, real-time sensor telemetrics, location-enabled incident command, and early warning mesh.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

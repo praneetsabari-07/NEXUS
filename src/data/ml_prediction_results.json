@@ -1,0 +1,370 @@
+{
+  "model_metrics": {
+    "classification_accuracy": 1.0,
+    "classification_f1": 1.0,
+    "regression_r2": 0.8347453575428222,
+    "regression_rmse": 0.11417205004764044,
+    "regression_mae": 0.0920080442474136,
+    "training_samples": 1610,
+    "timestamp": "2026-09-17T05:50:13.898395"
+  },
+  "formulas": {
+    "earthquake": "E = min(1.0, max(0.0, (Mw - 4.0) / 5.0)) [for Mw >= 4.0]",
+    "cyclone": "C = min(1.0, max(0.0, (Vmax - 17.0) / 55.0)) [for Vmax >= 17.0 m/s]",
+    "flood": "F = min(1.0, max(0.0, h_max / h_flood))",
+    "landslide": "L = min(1.0, max(0.0, V_max / V_slip))",
+    "tsunami": "T = min(1.0, max(0.0, H_max / H_runup))"
+  },
+  "predictions": [
+    {
+      "district": "Chennai",
+      "year": 2015,
+      "month": 11,
+      "day": 1,
+      "predicted_disaster_type": "Flood",
+      "confidence_probability": 0.7470961569118457,
+      "normalized_formula_risk_index": 0.8796,
+      "threat_level": "CRITICAL / RED ALERT",
+      "recommended_action": "Immediate Evacuation & Disaster Response Grid Activation",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.0,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.06692650869783782,
+        "Earthquake": 0.053680344021920706,
+        "Flood": 0.7470961569118457,
+        "Landslide": 0.006087893179241351,
+        "Tsunami": 0.12620909718915435
+      }
+    },
+    {
+      "district": "Chennai",
+      "year": 2015,
+      "month": 12,
+      "day": 2,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.8940578991657742,
+      "normalized_formula_risk_index": 0.751,
+      "threat_level": "CRITICAL / RED ALERT",
+      "recommended_action": "Immediate Evacuation & Disaster Response Grid Activation",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.7545,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.8940578991657742,
+        "Earthquake": 0.021752342176496832,
+        "Flood": 0.03822582438789433,
+        "Landslide": 0.0024531976292043946,
+        "Tsunami": 0.043510736640630286
+      }
+    },
+    {
+      "district": "Chennai",
+      "year": 2016,
+      "month": 12,
+      "day": 12,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.7728257800722673,
+      "normalized_formula_risk_index": 0.5837,
+      "threat_level": "ELEVATED / ORANGE ALERT",
+      "recommended_action": "Pre-position Logistics, Deploy Early Warning Mesh",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.5073,
+        "flood_F": 0.6458,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.7728257800722673,
+        "Earthquake": 0.02229210701409533,
+        "Flood": 0.16933284581540914,
+        "Landslide": 0.0027022375462002197,
+        "Tsunami": 0.03284702955202805
+      }
+    },
+    {
+      "district": "Nagapattinam",
+      "year": 2018,
+      "month": 11,
+      "day": 16,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.8533030007776294,
+      "normalized_formula_risk_index": 0.7957,
+      "threat_level": "CRITICAL / RED ALERT",
+      "recommended_action": "Immediate Evacuation & Disaster Response Grid Activation",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.7664,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.83
+      },
+      "class_probabilities": {
+        "Cyclone": 0.8533030007776294,
+        "Earthquake": 0.014963759316468964,
+        "Flood": 0.04285784367311995,
+        "Landslide": 0.007433243804968241,
+        "Tsunami": 0.0814421524278135
+      }
+    },
+    {
+      "district": "Cuddalore",
+      "year": 2020,
+      "month": 11,
+      "day": 25,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.8065353903048209,
+      "normalized_formula_risk_index": 0.556,
+      "threat_level": "ELEVATED / ORANGE ALERT",
+      "recommended_action": "Pre-position Logistics, Deploy Early Warning Mesh",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.5036,
+        "flood_F": 0.6386,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.8065353903048209,
+        "Earthquake": 0.02451795195623187,
+        "Flood": 0.14032216301820571,
+        "Landslide": 0.01200225530669196,
+        "Tsunami": 0.01662223941404958
+      }
+    },
+    {
+      "district": "Kanyakumari",
+      "year": 2021,
+      "month": 10,
+      "day": 15,
+      "predicted_disaster_type": "Flood",
+      "confidence_probability": 0.8477289423443796,
+      "normalized_formula_risk_index": 0.9051,
+      "threat_level": "CRITICAL / RED ALERT",
+      "recommended_action": "Immediate Evacuation & Disaster Response Grid Activation",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.0,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.036519125135965204,
+        "Earthquake": 0.04805679235750821,
+        "Flood": 0.8477289423443796,
+        "Landslide": 0.015373282758459996,
+        "Tsunami": 0.05232185740368707
+      }
+    },
+    {
+      "district": "Chennai",
+      "year": 2022,
+      "month": 12,
+      "day": 14,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.7917741052816187,
+      "normalized_formula_risk_index": 0.5652,
+      "threat_level": "ELEVATED / ORANGE ALERT",
+      "recommended_action": "Pre-position Logistics, Deploy Early Warning Mesh",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.5,
+        "flood_F": 0.6331,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.7917741052816187,
+        "Earthquake": 0.0170963217667252,
+        "Flood": 0.1715768303925858,
+        "Landslide": 0.0027214302674656602,
+        "Tsunami": 0.016831312291604675
+      }
+    },
+    {
+      "district": "Chennai",
+      "year": 2023,
+      "month": 12,
+      "day": 4,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.8825489994204074,
+      "normalized_formula_risk_index": 0.78,
+      "threat_level": "CRITICAL / RED ALERT",
+      "recommended_action": "Immediate Evacuation & Disaster Response Grid Activation",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.7318,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.8825489994204074,
+        "Earthquake": 0.01573591803345766,
+        "Flood": 0.08324930163983096,
+        "Landslide": 0.002010234370462642,
+        "Tsunami": 0.016455546535841317
+      }
+    },
+    {
+      "district": "Cuddalore",
+      "year": 2024,
+      "month": 11,
+      "day": 30,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.8038146075810242,
+      "normalized_formula_risk_index": 0.5709,
+      "threat_level": "ELEVATED / ORANGE ALERT",
+      "recommended_action": "Pre-position Logistics, Deploy Early Warning Mesh",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.4982,
+        "flood_F": 0.6286,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.8038146075810242,
+        "Earthquake": 0.028999250733741867,
+        "Flood": 0.11068074750064102,
+        "Landslide": 0.01864568003713722,
+        "Tsunami": 0.037859714147455696
+      }
+    },
+    {
+      "district": "Tirunelveli",
+      "year": 2024,
+      "month": 10,
+      "day": 10,
+      "predicted_disaster_type": "Flood",
+      "confidence_probability": 0.5041066776936551,
+      "normalized_formula_risk_index": 0.5697,
+      "threat_level": "ELEVATED / ORANGE ALERT",
+      "recommended_action": "Pre-position Logistics, Deploy Early Warning Mesh",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.0,
+        "flood_F": 0.626,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.59
+      },
+      "class_probabilities": {
+        "Cyclone": 0.4205743242873623,
+        "Earthquake": 0.028786430310590173,
+        "Flood": 0.5041066776936551,
+        "Landslide": 0.010490537929803333,
+        "Tsunami": 0.03604202977858917
+      }
+    },
+    {
+      "district": "Chennai",
+      "year": 2026,
+      "month": 11,
+      "day": 18,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.7344885265896004,
+      "normalized_formula_risk_index": 0.5526,
+      "threat_level": "ELEVATED / ORANGE ALERT",
+      "recommended_action": "Pre-position Logistics, Deploy Early Warning Mesh",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.0,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.83
+      },
+      "class_probabilities": {
+        "Cyclone": 0.7344885265896004,
+        "Earthquake": 0.019940647737335285,
+        "Flood": 0.12291650798292704,
+        "Landslide": 0.0042388281703140285,
+        "Tsunami": 0.1184154895198233
+      }
+    },
+    {
+      "district": "Nagapattinam",
+      "year": 2026,
+      "month": 12,
+      "day": 5,
+      "predicted_disaster_type": "Cyclone",
+      "confidence_probability": 0.8122506597120738,
+      "normalized_formula_risk_index": 0.7132,
+      "threat_level": "ELEVATED / ORANGE ALERT",
+      "recommended_action": "Pre-position Logistics, Deploy Early Warning Mesh",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.7091,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.8122506597120738,
+        "Earthquake": 0.0233446841467535,
+        "Flood": 0.117064802575565,
+        "Landslide": 0.006762564648985929,
+        "Tsunami": 0.04057728891662178
+      }
+    },
+    {
+      "district": "Nilgiris",
+      "year": 2026,
+      "month": 7,
+      "day": 22,
+      "predicted_disaster_type": "Landslide",
+      "confidence_probability": 0.5885801578049634,
+      "normalized_formula_risk_index": 0.4053,
+      "threat_level": "WATCH / YELLOW ALERT",
+      "recommended_action": "Continuous Sensor Telemetry & Reservoir Monitoring",
+      "formula_breakdown": {
+        "earthquake_E": 0.0,
+        "cyclone_C": 0.0,
+        "flood_F": 0.6088,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.0
+      },
+      "class_probabilities": {
+        "Cyclone": 0.06398287901267367,
+        "Earthquake": 0.09530724220348116,
+        "Flood": 0.15681536203680382,
+        "Landslide": 0.5885801578049634,
+        "Tsunami": 0.09531435894207804
+      }
+    },
+    {
+      "district": "Kanyakumari",
+      "year": 2026,
+      "month": 9,
+      "day": 14,
+      "predicted_disaster_type": "Tsunami",
+      "confidence_probability": 0.7379352905305995,
+      "normalized_formula_risk_index": 0.8698,
+      "threat_level": "CRITICAL / RED ALERT",
+      "recommended_action": "Immediate Evacuation & Disaster Response Grid Activation",
+      "formula_breakdown": {
+        "earthquake_E": 0.78,
+        "cyclone_C": 0.0,
+        "flood_F": 1.0,
+        "landslide_L": 0.0,
+        "tsunami_T": 0.83
+      },
+      "class_probabilities": {
+        "Cyclone": 0.026533758319447216,
+        "Earthquake": 0.12921562017049054,
+        "Flood": 0.10009380964390083,
+        "Landslide": 0.0062215213355619955,
+        "Tsunami": 0.7379352905305995
+      }
+    }
+  ]
+}

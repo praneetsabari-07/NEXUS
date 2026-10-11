@@ -1,0 +1,11 @@
+year,month,day,district,location,river_basin,trigger,severity,deaths,affected_people,source
+2015,11,1,Chennai,Adyar-Cooum basin,Adyar-Cooum,NE Monsoon extreme rainfall,Severe,422,1800000,IMD/NDMA/News
+2015,12,2,Chennai,Greater Chennai,Adyar-Cooum,Cyclonic storm + NE monsoon,Severe,50,500000,NDMA/News
+2016,12,12,Chennai,Chennai & suburbs,Adyar-Cooum,Cyclone Vardah + heavy rain,Moderate,18,200000,IMD/News
+2018,11,16,Nagapattinam,Cauvery delta,Cauvery,Cyclone Gaja + storm surge,Severe,63,300000,IMD/NDMA
+2020,11,25,Cuddalore,Cuddalore town & villages,Gadilam-Ponnaiyar,Cyclone Nivar + heavy rain,Moderate,14,150000,IMD/TNSDMA
+2021,10,15,Kanyakumari,Nagercoil & nearby,Coastal streams,Extreme NE monsoon burst,Moderate,22,80000,TNSDMA/News
+2022,12,14,Chennai,Chennai & Chengalpattu,Adyar-Cooum,Cyclone Mandous + heavy rain,Moderate,10,120000,IMD/TNSDMA
+2023,12,4,Chennai,"Chennai, Tambaram, Chengalpattu",Adyar-Cooum,Cyclone Michaung + cloudburst-like rain,Severe,25,400000,IMD/TNSDMA/News
+2024,11,30,Cuddalore,"Cuddalore, Chidambaram",Gadilam,Cyclone Fengal + intense rainfall,Moderate,8,100000,IMD/TNSDMA
+2024,10,10,Tirunelveli,Tirunelveli & Tenkasi,Thamirabarani,SW monsoon surge + dam release,Moderate,12,90000,TNSDMA/News
