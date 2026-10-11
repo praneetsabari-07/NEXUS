@@ -1,8 +1,10 @@
-# NEXUS — AI-Powered Planetary Disaster Prediction & Offline Landslide Early Warning System
+# NEXUS — Disaster Management System for Eastern India
+### AI-Powered Offline Landslide Prediction & Multi-Hazard Incident Command
 
-> **Idea & Core Capability:**  
-> **An advanced AI-based landslide and planetary disaster prediction system operating offline (without internet) using curated historical environmental & geotechnical datasets, achieving 80% to 84% classification accuracy.**
+> **Core Capability & Vision:**  
+> **An advanced AI based landslide prediction model without internet using historical datasets with an accuracy of 80 to 84 percentage, tailored as a Disaster Management System for Eastern India.**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Platform-nexus--sepia--nine--24.vercel.app-00dfd8?style=for-the-badge&logo=vercel&logoColor=black)](https://nexus-sepia-nine-24.vercel.app/)
 [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -10,13 +12,15 @@
 [![Accuracy](https://img.shields.io/badge/Model%20Accuracy-80%25--84%25-brightgreen?style=flat)]()
 [![Offline Mode](https://img.shields.io/badge/Offline%20Operation-Zero--Internet%20Ready-blueviolet?style=flat)]()
 
+🌐 **Live Deployment:** [https://nexus-sepia-nine-24.vercel.app/](https://nexus-sepia-nine-24.vercel.app/)
+
 ---
 
 ## 📌 Executive Summary
 
-**NEXUS** is an edge-resilient, offline-first planetary disaster prediction and incident management platform. During catastrophic events such as flash floods, hillside slope failures, and severe cyclones, network connectivity, telecom towers, and cloud backends are often severed. 
+**NEXUS** is an edge-resilient, offline-first **Disaster Management System for Eastern India** and vulnerable planetary sectors. In regions across Eastern India prone to heavy monsoon floods, Bay of Bengal tropical cyclones, and treacherous hillside slope failures, critical communications infrastructure and power lines are frequently wiped out.
 
-NEXUS solves this critical bottleneck by providing **offline machine learning inference and mathematical physics formulas** trained directly on localized historical datasets (including Western Ghats hillside landslide records, Tamil Nadu flood data, and geological shear stress points). The system runs autonomously in zero-connectivity field command posts with **80% to 84% verified prediction accuracy**.
+NEXUS solves this critical vulnerability by providing **offline machine learning inference and mathematical physics formulas** trained directly on localized historical datasets (slope stability records, precipitation anomaly indices, and geotechnical shear data). The system operates seamlessly in zero-connectivity field command stations with **80% to 84% verified prediction accuracy**.
 
 ---
 

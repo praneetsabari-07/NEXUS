@@ -230,7 +230,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, currentUser }) =
 
             {/* Sub-headline */}
             <p className="text-sm sm:text-lg md:text-xl font-light tracking-[0.18em] sm:tracking-[0.24em] text-white/90 uppercase max-w-2xl mx-auto mb-10 px-2 drop-shadow-md">
-              Disaster Prediction and Management System
+              Disaster Management System for Eastern India
             </p>
 
             {/* Authentication & Action Group (Log In & Sign In) */}
@@ -695,7 +695,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, currentUser }) =
           <footer className="mt-20 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
             <div className="flex items-center gap-2">
               <span className="font-bold tracking-widest text-white">NEXUS</span>
-              <span>— Planetary Disaster Prediction &amp; Management System</span>
+              <span>— Disaster Management System for Eastern India</span>
             </div>
             <div className="flex items-center gap-6 font-mono text-[11px]">
               <button
